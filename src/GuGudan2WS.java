@@ -1,4 +1,4 @@
-public class GuGudan2 {
+public class GuGudan2WS {
 	public static void main(String[] args) {
 		
 		int a = 2;

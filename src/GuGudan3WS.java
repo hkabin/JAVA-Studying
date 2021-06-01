@@ -1,4 +1,4 @@
-public class GuGudan3 {
+public class GuGudan3WS {
 	public static void main(String[] args) {
 		
 		int x = 3;
