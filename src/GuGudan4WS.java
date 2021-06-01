@@ -13,12 +13,14 @@ public class GuGudan4WS {
 		Scanner b = new Scanner(System.in);               //System.in은 화면에서 입력받겠다는 의미
 		int DanNum = b.nextInt();                         //정수 DanNum는 화면에서 입력받는 변수
 		System.out.println("네. " + DanNum + "단을 출력하겠습니다.");
-						
+		
+		//for문을 이용한 구구단 출력
 		for(int i = 1; i < 10; i ++) {
 			int result = DanNum*i;
 			System.out.println(result);
 		}
 		
+		//while문을 이용한 구구단 출력
 		int c = 0;
 		while(c < 10) {
 			c = c + 1;
