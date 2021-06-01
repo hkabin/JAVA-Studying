@@ -1,4 +1,4 @@
-public class Class11 {
+public class Class11WS {
 	public static void main(String[] args) {
 		//2단
 		System.out.println(2 * 1);  //일일이 쳐서 typing
