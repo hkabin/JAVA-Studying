@@ -14,9 +14,16 @@ public class GuGudan4WS {
 		int DanNum = b.nextInt();                         //정수 DanNum는 화면에서 입력받는 변수
 		System.out.println("네. " + DanNum + "단을 출력하겠습니다.");
 						
-		for(int i=1; i<10; i++) {
+		for(int i = 1; i < 10; i ++) {
 			int result = DanNum*i;
 			System.out.println(result);
+		}
+		
+		int c = 0;
+		while(c < 10) {
+			c = c + 1;
+			int result2 = DanNum*c;
+			System.out.println(result2);
 		}
 	}
 }
